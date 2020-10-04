@@ -1,0 +1,57 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+def allPod
+  pod 'TestModule', :path => '../TestModule'
+  pod 'HudTool', :path => '../HudTool'
+end
+
+target 'TestSDK_Dynamic_All' do
+  allPod
+end
+
+target 'TestSDK_Static' do
+  use_frameworks!
+  allPod
+end
+
+target 'TestSDK_Dynamic_RemoveMB' do
+  allPod
+end
+
+target 'TestSDK_Dynamic_RemoveAll' do
+  use_frameworks!
+  allPod
+end
+
+# 多target 混合use_frameworks时 .a会增加-library区分命名
+ignoreThirds = ["MBProgressHUD","MBProgressHUD-library"]
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] ='9.0'
+      if target.name == "Pods-TestSDK_Dynamic_RemoveMB"
+        xcconfig_path = config.base_configuration_reference.real_path
+        # 获取build_settings
+        build_settings = Hash[*File.read(xcconfig_path).lines.map{|x| x.split(/\s*=\s*/, 2)}.flatten]
+        # 获取OTHER_LDFLAGS并移除末尾换行
+        $other_ldflags = build_settings['OTHER_LDFLAGS'].chomp
+        # 移除忽略库
+        ignoreThirds.each do |value|
+          $other_ldflags = $other_ldflags.gsub("-l\"#{value}\"", "")
+        end
+        # 避免已忽略库编译错误
+        $other_ldflags = "#{$other_ldflags} -undefined dynamic_lookup"
+        # 设置OTHER_LDFLAGS
+        build_settings['OTHER_LDFLAGS'] = $other_ldflags
+        # 清空xcconfig文件数据
+        File.open(xcconfig_path, "w") {|file| file.puts ""}
+        # 重写入xcconfig文件数据
+        build_settings.each do |key,value|
+          File.open(xcconfig_path, "a") {|file| file.puts "#{key} = #{value}"}
+        end
+      end
+    end
+  end
+end

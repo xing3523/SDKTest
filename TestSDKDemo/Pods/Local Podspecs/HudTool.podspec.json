@@ -1,0 +1,27 @@
+{
+  "name": "HudTool",
+  "version": "0.1.0",
+  "summary": "A short description of HudTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xing/HudTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xing": "xinxof@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/xing/HudTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HudTool/Classes/**/*",
+  "dependencies": {
+    "MBProgressHUD": [
+      "1.2.0"
+    ]
+  }
+}

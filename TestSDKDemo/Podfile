@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'TestSDKDemo_Dy_All' do
+#  引入MBProgressHUD 则控制台会输出类重复警告
+#  pod 'MBProgressHUD', '1.2.0'
+end
+target 'TestSDKDemo_Dy_RemoveMB' do
+  pod 'MBProgressHUD', '1.2.0'
+end
+target 'TestSDKDemo_Dy_RemoveAll' do
+  use_frameworks!
+  pod 'TestModule', :path => '../TestModule'
+  pod 'HudTool', :path => '../HudTool'
+end
+target 'TestSDKDemo_Static' do
+  pod 'TestModule', :path => '../TestModule'
+  pod 'HudTool', :path => '../HudTool'
+end

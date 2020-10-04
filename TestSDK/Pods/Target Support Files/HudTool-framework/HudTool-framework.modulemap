@@ -1,0 +1,6 @@
+framework module HudTool {
+  umbrella header "HudTool-framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

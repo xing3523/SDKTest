@@ -1,0 +1,6 @@
+framework module Pods_TestSDK_Dynamic_RemoveMB {
+  umbrella header "Pods-TestSDK_Dynamic_RemoveMB-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,30 @@
+PODS:
+  - HudTool (0.1.0):
+    - MBProgressHUD (= 1.2.0)
+  - MBProgressHUD (1.2.0)
+  - TestModule (0.1.0):
+    - HudTool
+
+DEPENDENCIES:
+  - HudTool (from `../HudTool`)
+  - MBProgressHUD (= 1.2.0)
+  - TestModule (from `../TestModule`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  HudTool:
+    :path: "../HudTool"
+  TestModule:
+    :path: "../TestModule"
+
+SPEC CHECKSUMS:
+  HudTool: a16ef47869db89e08a225427fc061d9eaaeebc90
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  TestModule: 530b6b4d40125bfdcc2db6efb23ed2cf130d81d8
+
+PODFILE CHECKSUM: 53c72f95bd106148aeaf1cee391acf3d0f3e8808
+
+COCOAPODS: 1.8.4
