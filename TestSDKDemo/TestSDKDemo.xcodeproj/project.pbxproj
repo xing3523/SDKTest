@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2149E94625B081D8005FF8E4 /* TestSDK_Static.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C8D0EC25242E5A0063115A /* TestSDK_Static.framework */; };
 		21571A01252419F100A2A597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21571A00252419F100A2A597 /* AppDelegate.m */; };
 		21571A04252419F100A2A597 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21571A03252419F100A2A597 /* SceneDelegate.m */; };
 		21571A07252419F100A2A597 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21571A06252419F100A2A597 /* ViewController.m */; };
@@ -35,17 +36,16 @@
 		21C8D0DC25242DE60063115A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21571A0D252419F200A2A597 /* LaunchScreen.storyboard */; };
 		21C8D0DD25242DE60063115A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21571A0B252419F200A2A597 /* Assets.xcassets */; };
 		21C8D0DE25242DE60063115A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21571A08252419F100A2A597 /* Main.storyboard */; };
-		21C8D0ED25242E5A0063115A /* TestSDK_Static.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C8D0EC25242E5A0063115A /* TestSDK_Static.framework */; };
 		21C8D0EE25242ECD0063115A /* TestSDK_Dynamic_All.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C8D0E625242E420063115A /* TestSDK_Dynamic_All.framework */; };
 		21C8D0EF25242ECD0063115A /* TestSDK_Dynamic_All.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21C8D0E625242E420063115A /* TestSDK_Dynamic_All.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		21C8D0F025242ECF0063115A /* TestSDK_Dynamic_RemoveMB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C8D0EA25242E530063115A /* TestSDK_Dynamic_RemoveMB.framework */; };
 		21C8D0F125242ECF0063115A /* TestSDK_Dynamic_RemoveMB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21C8D0EA25242E530063115A /* TestSDK_Dynamic_RemoveMB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		21C8D0F225242ED10063115A /* TestSDK_Dynamic_RemoveAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C8D0E825242E4C0063115A /* TestSDK_Dynamic_RemoveAll.framework */; };
-		21C8D0F325242ED10063115A /* TestSDK_Dynamic_RemoveAll.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21C8D0E825242E4C0063115A /* TestSDK_Dynamic_RemoveAll.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3ABEFFCB40220C69CBA88921 /* Pods_TestSDKDemo_Dy_RemoveAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7DF65090E273573E5B2DF4 /* Pods_TestSDKDemo_Dy_RemoveAll.framework */; };
-		9E8E3C1F9ABEEB0910ACCBA6 /* libPods-TestSDKDemo_Dy_RemoveMB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C34FC771C7FA3906868F2EA0 /* libPods-TestSDKDemo_Dy_RemoveMB.a */; };
-		C695CDD7D35046750664B3C1 /* libPods-TestSDKDemo_Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8F5A9DAD89351E5DD11608 /* libPods-TestSDKDemo_Static.a */; };
+		21C8D0F325242ED10063115A /* TestSDK_Dynamic_RemoveAll.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21C8D0E825242E4C0063115A /* TestSDK_Dynamic_RemoveAll.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		660A38B50D6513DDC46B16F8 /* libPods-TestSDKDemo_Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB40EAC4226753D2AB0BCF /* libPods-TestSDKDemo_Static.a */; };
+		C04F9943E2E5E91B666E81C1 /* libPods-TestSDKDemo_Dy_RemoveMB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A488D080FB7864A0DD256B /* libPods-TestSDKDemo_Dy_RemoveMB.a */; };
 		DA6AAC8C83A3B8677E151157 /* libPods-TestSDKDemo_Dy_All.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AC787B4F9B39A90E22E241 /* libPods-TestSDKDemo_Dy_All.a */; };
+		DF19EEF3CAA10FD2967A413B /* Pods_TestSDKDemo_Dy_RemoveAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10654D3A7476B0759240F958 /* Pods_TestSDKDemo_Dy_RemoveAll.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,16 +71,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		21571A612524263E00A2A597 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		21C8D0DF25242DE60063115A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,7 +85,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A7DF65090E273573E5B2DF4 /* Pods_TestSDKDemo_Dy_RemoveAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDKDemo_Dy_RemoveAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10654D3A7476B0759240F958 /* Pods_TestSDKDemo_Dy_RemoveAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDKDemo_Dy_RemoveAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4F1970FBC7D759ED9F590E /* Pods-TestSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-TestSDKDemo/Pods-TestSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		215719FC252419F100A2A597 /* TestSDKDemo_Dy_All.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSDKDemo_Dy_All.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		215719FF252419F100A2A597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,11 +100,11 @@
 		21571A10252419F200A2A597 /* TestSDKDemo_Static-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSDKDemo_Static-Info.plist"; sourceTree = "<group>"; };
 		21571A11252419F200A2A597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21571A522524263200A2A597 /* TestSDKDemo_Dy_RemoveMB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSDKDemo_Dy_RemoveMB.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21571A532524263200A2A597 /* TestSDKDemo_Dy_All-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestSDKDemo_Dy_All-Info.plist"; path = "/Users/xing/Desktop/SDKTest/TestSDKDemo/TestSDKDemo_Dy_All-Info.plist"; sourceTree = "<absolute>"; };
+		21571A532524263200A2A597 /* TestSDKDemo_Dy_All-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSDKDemo_Dy_All-Info.plist"; sourceTree = "<group>"; };
 		21571A652524263E00A2A597 /* TestSDKDemo_Static.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSDKDemo_Static.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21571A662524263E00A2A597 /* TestSDKDemo_Dy_RemoveMB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestSDKDemo_Dy_RemoveMB-Info.plist"; path = "/Users/xing/Desktop/SDKTest/TestSDKDemo/TestSDKDemo_Dy_RemoveMB-Info.plist"; sourceTree = "<absolute>"; };
+		21571A662524263E00A2A597 /* TestSDKDemo_Dy_RemoveMB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSDKDemo_Dy_RemoveMB-Info.plist"; sourceTree = "<group>"; };
 		21C8D0E425242DE60063115A /* TestSDKDemo_Dy_RemoveAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSDKDemo_Dy_RemoveAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21C8D0E525242DE60063115A /* TestSDKDemo_Dy_RemoveAll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestSDKDemo_Dy_RemoveAll-Info.plist"; path = "/Users/xing/Desktop/SDKTest/TestSDKDemo/TestSDKDemo_Dy_RemoveAll-Info.plist"; sourceTree = "<absolute>"; };
+		21C8D0E525242DE60063115A /* TestSDKDemo_Dy_RemoveAll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSDKDemo_Dy_RemoveAll-Info.plist"; sourceTree = "<group>"; };
 		21C8D0E625242E420063115A /* TestSDK_Dynamic_All.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestSDK_Dynamic_All.framework; sourceTree = "<group>"; };
 		21C8D0E825242E4C0063115A /* TestSDK_Dynamic_RemoveAll.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestSDK_Dynamic_RemoveAll.framework; sourceTree = "<group>"; };
 		21C8D0EA25242E530063115A /* TestSDK_Dynamic_RemoveMB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestSDK_Dynamic_RemoveMB.framework; sourceTree = "<group>"; };
@@ -124,13 +114,13 @@
 		3F7E43A61F9334866F648CB4 /* Pods-TestSDKDemo_Dy_RemoveMB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDKDemo_Dy_RemoveMB.release.xcconfig"; path = "Target Support Files/Pods-TestSDKDemo_Dy_RemoveMB/Pods-TestSDKDemo_Dy_RemoveMB.release.xcconfig"; sourceTree = "<group>"; };
 		4610825B59CF96BDB627108C /* Pods-TestSDKDemo_Dy_RemoveAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDKDemo_Dy_RemoveAll.release.xcconfig"; path = "Target Support Files/Pods-TestSDKDemo_Dy_RemoveAll/Pods-TestSDKDemo_Dy_RemoveAll.release.xcconfig"; sourceTree = "<group>"; };
 		6C4EAA34E1789024FA514A87 /* Pods-TestSDKDemo_Dy_All.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDKDemo_Dy_All.debug.xcconfig"; path = "Target Support Files/Pods-TestSDKDemo_Dy_All/Pods-TestSDKDemo_Dy_All.debug.xcconfig"; sourceTree = "<group>"; };
-		6F8F5A9DAD89351E5DD11608 /* libPods-TestSDKDemo_Static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSDKDemo_Static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEB40EAC4226753D2AB0BCF /* libPods-TestSDKDemo_Static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSDKDemo_Static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AC787B4F9B39A90E22E241 /* libPods-TestSDKDemo_Dy_All.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSDKDemo_Dy_All.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF91CE37B1EA6A0986A1FFF /* Pods-TestSDKDemo_Dy_All.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDKDemo_Dy_All.release.xcconfig"; path = "Target Support Files/Pods-TestSDKDemo_Dy_All/Pods-TestSDKDemo_Dy_All.release.xcconfig"; sourceTree = "<group>"; };
-		C34FC771C7FA3906868F2EA0 /* libPods-TestSDKDemo_Dy_RemoveMB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSDKDemo_Dy_RemoveMB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25D77DA788D96776DAECD44 /* Pods-TestSDKDemo_Dy_RemoveAll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDKDemo_Dy_RemoveAll.debug.xcconfig"; path = "Target Support Files/Pods-TestSDKDemo_Dy_RemoveAll/Pods-TestSDKDemo_Dy_RemoveAll.debug.xcconfig"; sourceTree = "<group>"; };
 		D358B44C82B0720D60C63D84 /* Pods-TestSDKDemo_Static.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDKDemo_Static.release.xcconfig"; path = "Target Support Files/Pods-TestSDKDemo_Static/Pods-TestSDKDemo_Static.release.xcconfig"; sourceTree = "<group>"; };
 		E394B35818F07C0BA20C15DA /* Pods-TestSDKDemo_Dy_RemoveMB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDKDemo_Dy_RemoveMB.debug.xcconfig"; path = "Target Support Files/Pods-TestSDKDemo_Dy_RemoveMB/Pods-TestSDKDemo_Dy_RemoveMB.debug.xcconfig"; sourceTree = "<group>"; };
+		E7A488D080FB7864A0DD256B /* libPods-TestSDKDemo_Dy_RemoveMB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSDKDemo_Dy_RemoveMB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18F54DDF41C5A7444727E8D /* Pods-TestSDKDemo_Static.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDKDemo_Static.debug.xcconfig"; path = "Target Support Files/Pods-TestSDKDemo_Static/Pods-TestSDKDemo_Static.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C8D0F025242ECF0063115A /* TestSDK_Dynamic_RemoveMB.framework in Frameworks */,
-				9E8E3C1F9ABEEB0910ACCBA6 /* libPods-TestSDKDemo_Dy_RemoveMB.a in Frameworks */,
+				C04F9943E2E5E91B666E81C1 /* libPods-TestSDKDemo_Dy_RemoveMB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,8 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21C8D0ED25242E5A0063115A /* TestSDK_Static.framework in Frameworks */,
-				C695CDD7D35046750664B3C1 /* libPods-TestSDKDemo_Static.a in Frameworks */,
+				2149E94625B081D8005FF8E4 /* TestSDK_Static.framework in Frameworks */,
+				660A38B50D6513DDC46B16F8 /* libPods-TestSDKDemo_Static.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C8D0F225242ED10063115A /* TestSDK_Dynamic_RemoveAll.framework in Frameworks */,
-				3ABEFFCB40220C69CBA88921 /* Pods_TestSDKDemo_Dy_RemoveAll.framework in Frameworks */,
+				DF19EEF3CAA10FD2967A413B /* Pods_TestSDKDemo_Dy_RemoveAll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,9 +232,9 @@
 			isa = PBXGroup;
 			children = (
 				93AC787B4F9B39A90E22E241 /* libPods-TestSDKDemo_Dy_All.a */,
-				C34FC771C7FA3906868F2EA0 /* libPods-TestSDKDemo_Dy_RemoveMB.a */,
-				6F8F5A9DAD89351E5DD11608 /* libPods-TestSDKDemo_Static.a */,
-				0A7DF65090E273573E5B2DF4 /* Pods_TestSDKDemo_Dy_RemoveAll.framework */,
+				8FEB40EAC4226753D2AB0BCF /* libPods-TestSDKDemo_Static.a */,
+				10654D3A7476B0759240F958 /* Pods_TestSDKDemo_Dy_RemoveAll.framework */,
+				E7A488D080FB7864A0DD256B /* libPods-TestSDKDemo_Dy_RemoveMB.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -298,7 +288,6 @@
 				21571A562524263E00A2A597 /* Sources */,
 				21571A5B2524263E00A2A597 /* Frameworks */,
 				21571A5D2524263E00A2A597 /* Resources */,
-				21571A612524263E00A2A597 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -318,7 +307,7 @@
 				21C8D0D925242DE60063115A /* Frameworks */,
 				21C8D0DB25242DE60063115A /* Resources */,
 				21C8D0DF25242DE60063115A /* Embed Frameworks */,
-				380D341D7DD549D8508CFC21 /* [CP] Embed Pods Frameworks */,
+				70627838D32B18B9819DFEC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,7 +324,7 @@
 		215719F4252419F100A2A597 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = xing;
 				TargetAttributes = {
 					215719FB252419F100A2A597 = {
@@ -452,23 +441,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		380D341D7DD549D8508CFC21 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestSDKDemo_Dy_RemoveAll/Pods-TestSDKDemo_Dy_RemoveAll-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestSDKDemo_Dy_RemoveAll/Pods-TestSDKDemo_Dy_RemoveAll-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestSDKDemo_Dy_RemoveAll/Pods-TestSDKDemo_Dy_RemoveAll-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5F7425F6E28CB5B58E3B7B40 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -489,6 +461,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70627838D32B18B9819DFEC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestSDKDemo_Dy_RemoveAll/Pods-TestSDKDemo_Dy_RemoveAll-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestSDKDemo_Dy_RemoveAll/Pods-TestSDKDemo_Dy_RemoveAll-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestSDKDemo_Dy_RemoveAll/Pods-TestSDKDemo_Dy_RemoveAll-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D5A1807F98DCA54E0C983916 /* [CP] Check Pods Manifest.lock */ = {
@@ -608,6 +597,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -666,6 +656,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -697,7 +688,9 @@
 			baseConfigurationReference = 6C4EAA34E1789024FA514A87 /* Pods-TestSDKDemo_Dy_All.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SQYCE596J2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestSDKDemo",
@@ -715,7 +708,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xingWildDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -724,7 +719,9 @@
 			baseConfigurationReference = BCF91CE37B1EA6A0986A1FFF /* Pods-TestSDKDemo_Dy_All.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SQYCE596J2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestSDKDemo",
@@ -742,7 +739,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xingWildDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
@@ -751,7 +750,10 @@
 			baseConfigurationReference = E394B35818F07C0BA20C15DA /* Pods-TestSDKDemo_Dy_RemoveMB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SQYCE596J2;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestSDKDemo",
@@ -769,7 +771,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xingWildDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -778,7 +782,10 @@
 			baseConfigurationReference = 3F7E43A61F9334866F648CB4 /* Pods-TestSDKDemo_Dy_RemoveMB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SQYCE596J2;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestSDKDemo",
@@ -796,7 +803,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xingWildDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
@@ -805,7 +814,9 @@
 			baseConfigurationReference = F18F54DDF41C5A7444727E8D /* Pods-TestSDKDemo_Static.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SQYCE596J2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestSDKDemo",
@@ -823,6 +834,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xingWildDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -832,7 +844,9 @@
 			baseConfigurationReference = D358B44C82B0720D60C63D84 /* Pods-TestSDKDemo_Static.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SQYCE596J2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestSDKDemo",
@@ -850,6 +864,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xingWildDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -859,7 +874,9 @@
 			baseConfigurationReference = D25D77DA788D96776DAECD44 /* Pods-TestSDKDemo_Dy_RemoveAll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SQYCE596J2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestSDKDemo",
@@ -877,7 +894,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xingWildDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Debug;
 		};
@@ -886,7 +905,9 @@
 			baseConfigurationReference = 4610825B59CF96BDB627108C /* Pods-TestSDKDemo_Dy_RemoveAll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SQYCE596J2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestSDKDemo",
@@ -904,7 +925,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xingWildDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Release;
 		};

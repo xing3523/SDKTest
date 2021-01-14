@@ -6,14 +6,15 @@ target 'TestSDKDemo_Dy_All' do
 #  pod 'MBProgressHUD', '1.2.0'
 end
 target 'TestSDKDemo_Dy_RemoveMB' do
+  #use_frameworks!  #可用可不用
   pod 'MBProgressHUD', '1.2.0'
 end
 target 'TestSDKDemo_Dy_RemoveAll' do
+  # 必须使用use_frameworks
   use_frameworks!
-  pod 'TestModule', :path => '../TestModule'
-  pod 'HudTool', :path => '../HudTool'
+  pod 'MBProgressHUD', '1.2.0'
 end
 target 'TestSDKDemo_Static' do
-  pod 'TestModule', :path => '../TestModule'
-  pod 'HudTool', :path => '../HudTool'
+  #use_frameworks!  打包时需用.a引入私有组件，此处若使用use_frameworks，会找不到方法崩溃
+  pod 'MBProgressHUD', '1.2.0'
 end

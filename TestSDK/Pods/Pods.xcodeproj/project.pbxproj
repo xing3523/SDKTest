@@ -8,40 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		01BF52A2DEE6526ADBC3458E29B24EA3 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E388FD5C46BAFB7CB26A3B74284C9FED /* MBProgressHUD.framework */; };
-		0EB244DF6163DF34042E495DC4406213 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1C2933D037D7C1F26A5BFAC506B515 /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EB244DF6163DF34042E495DC4406213 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D49BF703A442BB9BB086C8857EC1D95 /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		124B4A2BCB3D3B687549EC264E127ABC /* Pods-TestSDK_Static-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 285DF0C2178110AF5B6EF9B17CDB8E54 /* Pods-TestSDK_Static-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AB142FDC1766D62E1962DE5E386494D /* HudTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0656C246C24BC2821F432B70D30C70 /* HudTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB142FDC1766D62E1962DE5E386494D /* HudTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DB611A80E6CF9E74B3A9938A770885 /* HudTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F188209D13538B728809FC298908D7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A442CCE1B0C71E600DE8B6D81EC3EC7 /* Foundation.framework */; };
 		1F1A14B03808A70663BEA725B2CB8508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A442CCE1B0C71E600DE8B6D81EC3EC7 /* Foundation.framework */; };
 		380E2C299CB9FA840072CCF8462C52EF /* MBProgressHUD-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3EC2A663E560B5A2DBBB3A09CEFC0 /* MBProgressHUD-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B1B5370286AB76699D94E9A18951A9E /* HudTool-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF6A369BC934B4DBCCB4E18D49A9675 /* HudTool-library-dummy.m */; };
+		5B1B5370286AB76699D94E9A18951A9E /* HudTool-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F8EA3190E9D70BB3D1262BD718A4E6 /* HudTool-library-dummy.m */; };
 		5D197337DE4CE65FA66E12CE7F6E90DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A442CCE1B0C71E600DE8B6D81EC3EC7 /* Foundation.framework */; };
 		6835E6765710C7CA5D3B6205B1DF144D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A442CCE1B0C71E600DE8B6D81EC3EC7 /* Foundation.framework */; };
-		6D781F15C386054BAEA34059D9BAA570 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B6771E442F35913FAE84C325AA6F59 /* TestViewController.m */; };
-		7172A098FCDB714957BBAA83F70FFFD3 /* TestModule-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C656B995F105BBA47722E67E508E712 /* TestModule-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D781F15C386054BAEA34059D9BAA570 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DFC6AE37155123A0269119EA5C27B7 /* TestViewController.m */; };
+		7172A098FCDB714957BBAA83F70FFFD3 /* TestModule-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF7198114B3ED4E83AF6BE0FBB28EFC /* TestModule-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72BB18330ECAD19D9E8E040E599C0758 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E478362412E93C6B64023933518F49AC /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B685E3BE761E269D479196F90CFAF0C /* TestModule-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAABB616C027B2FE59D9CC966557C278 /* TestModule-framework-dummy.m */; };
-		80A82189248D0AD98C3DA9675F713699 /* HudTool-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E7873868B21B4E400337C1A83793D0 /* HudTool-framework-dummy.m */; };
+		7B685E3BE761E269D479196F90CFAF0C /* TestModule-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 539C2F428CCA07CF767F7B58664396F3 /* TestModule-framework-dummy.m */; };
+		80A82189248D0AD98C3DA9675F713699 /* HudTool-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E417E32A226AD820EDD52AC7E3AFF /* HudTool-framework-dummy.m */; };
 		81395FAFB1900DAD707E3361E179EEC8 /* Pods-TestSDK_Dynamic_RemoveAll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 030984BD8C5A356F1DD000268950C071 /* Pods-TestSDK_Dynamic_RemoveAll-dummy.m */; };
-		8C8F4BAC77B98703BEDFF10EF2788046 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B6771E442F35913FAE84C325AA6F59 /* TestViewController.m */; };
+		8C8F4BAC77B98703BEDFF10EF2788046 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DFC6AE37155123A0269119EA5C27B7 /* TestViewController.m */; };
 		96518BC385C9EB6AF3A8D76889591989 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E478362412E93C6B64023933518F49AC /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0E05B6172228F516F36A22338D1F764 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED420FA3C535A2CC9384EDB1D99892 /* MBProgressHUD.m */; };
 		A26AC81723EC78E4CEDA47DED49829A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CFB734D24F9DB15CD429DC1F515345 /* QuartzCore.framework */; };
 		A3CAF6758E5B04BFF1DE08432B94B239 /* Pods-TestSDK_Dynamic_RemoveAll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 153C29F9C87E3C62171A0F133F36220F /* Pods-TestSDK_Dynamic_RemoveAll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A52666A6297E8831DCACD4CA7FED021A /* TestModule-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 913335871EF1ECBA59ACB26889D28AE7 /* TestModule-library-dummy.m */; };
-		AA9EC742C6D2EB8772D454F380B29942 /* HudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A8825B85F1C8FA2D3B16E7C7A8480BFC /* HudTool.m */; };
+		A52666A6297E8831DCACD4CA7FED021A /* TestModule-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ADD6F1D4CCAAFC3928F79CAEA9654A /* TestModule-library-dummy.m */; };
+		AA9EC742C6D2EB8772D454F380B29942 /* HudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1CF72ED2128BC31438E04D1AA98551 /* HudTool.m */; };
 		AB1A7C37A6B785098839BCC51A230175 /* MBProgressHUD-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 131726BE6F5BB937E18EB5CADCE8A7DB /* MBProgressHUD-library-dummy.m */; };
 		BAD7FB457D8B01341D209D52B024129C /* Pods-TestSDK_Dynamic_RemoveMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07878E186494A25D2EC61F3ED41F915C /* Pods-TestSDK_Dynamic_RemoveMB-dummy.m */; };
-		BE690E9C204312ED37DBE5CFD09DC153 /* HudTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0656C246C24BC2821F432B70D30C70 /* HudTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE690E9C204312ED37DBE5CFD09DC153 /* HudTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DB611A80E6CF9E74B3A9938A770885 /* HudTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C77C00C7B9918E200BFEB3992B95B099 /* Pods-TestSDK_Static-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E51BDC3B7D3F273FE76BAEC41B179CB /* Pods-TestSDK_Static-dummy.m */; };
 		CBBFBA66069E92F8F9FA9EAB258004E9 /* MBProgressHUD-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CD53016FA8C6A546B8AE92CAC7F740 /* MBProgressHUD-framework-dummy.m */; };
 		CE355E89D346FC0A3918AE51632317FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8407A5C5AB63ECF7B8E6361D961145E /* CoreGraphics.framework */; };
-		D8F62387552D64F94F65231AEE5A93AD /* HudTool-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2666C8DFC7DE069A84A8E6C4DEBD09 /* HudTool-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8F62387552D64F94F65231AEE5A93AD /* HudTool-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D05820387BBDCC8014B5812C7031A2 /* HudTool-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D96D57F49C3D19443A292007C2A324E4 /* Pods-TestSDK_Dynamic_All-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C70A8AD7B62630F2B07CB48A7635E8 /* Pods-TestSDK_Dynamic_All-dummy.m */; };
 		E358486D1D17FF25E08C24373AF05828 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED420FA3C535A2CC9384EDB1D99892 /* MBProgressHUD.m */; };
 		ED671944E6622B320D0EB81B5B00B83E /* HudTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD07935DC129F6645327F306E42FB38 /* HudTool.framework */; };
-		F58B5A8433AFC65D55A9755DDC3F3BD5 /* HudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A8825B85F1C8FA2D3B16E7C7A8480BFC /* HudTool.m */; };
-		F9AD13B04EBE00FE599D012ADD4802AE /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1C2933D037D7C1F26A5BFAC506B515 /* TestViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F58B5A8433AFC65D55A9755DDC3F3BD5 /* HudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1CF72ED2128BC31438E04D1AA98551 /* HudTool.m */; };
+		F9AD13B04EBE00FE599D012ADD4802AE /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D49BF703A442BB9BB086C8857EC1D95 /* TestViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FF4D9A172283E2286B9973ED063D7519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A442CCE1B0C71E600DE8B6D81EC3EC7 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -163,70 +163,64 @@
 /* Begin PBXFileReference section */
 		030984BD8C5A356F1DD000268950C071 /* Pods-TestSDK_Dynamic_RemoveAll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestSDK_Dynamic_RemoveAll-dummy.m"; sourceTree = "<group>"; };
 		07878E186494A25D2EC61F3ED41F915C /* Pods-TestSDK_Dynamic_RemoveMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestSDK_Dynamic_RemoveMB-dummy.m"; sourceTree = "<group>"; };
-		0F2666C8DFC7DE069A84A8E6C4DEBD09 /* HudTool-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HudTool-framework-umbrella.h"; sourceTree = "<group>"; };
+		0DF02413CD2FD6BA0003765C9BAA85D1 /* TestModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		131726BE6F5BB937E18EB5CADCE8A7DB /* MBProgressHUD-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD-library-dummy.m"; path = "../MBProgressHUD-library/MBProgressHUD-library-dummy.m"; sourceTree = "<group>"; };
-		14F7FD40ABF789904C38C7126C5090BC /* TestModule-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "TestModule-library.xcconfig"; path = "../TestModule-library/TestModule-library.xcconfig"; sourceTree = "<group>"; };
 		153C29F9C87E3C62171A0F133F36220F /* Pods-TestSDK_Dynamic_RemoveAll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestSDK_Dynamic_RemoveAll-umbrella.h"; sourceTree = "<group>"; };
-		1F27D798006B74C4B1D64879C3A677C6 /* HudTool-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HudTool-framework-prefix.pch"; sourceTree = "<group>"; };
+		1A8EB105C423D3E73ED233BA6A275597 /* TestModule-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TestModule-library-prefix.pch"; path = "../TestModule-library/TestModule-library-prefix.pch"; sourceTree = "<group>"; };
+		1B1CF72ED2128BC31438E04D1AA98551 /* HudTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HudTool.m; path = HudTool/Classes/HudTool.m; sourceTree = "<group>"; };
 		2815FF6A09875D10D79898D584E83A52 /* MBProgressHUD-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MBProgressHUD-framework.modulemap"; sourceTree = "<group>"; };
 		285DF0C2178110AF5B6EF9B17CDB8E54 /* Pods-TestSDK_Static-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestSDK_Static-umbrella.h"; sourceTree = "<group>"; };
 		318862A3D2A41DCDECD85E12267DBC89 /* Pods-TestSDK_Dynamic_All.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Dynamic_All.release.xcconfig"; sourceTree = "<group>"; };
-		32DF73421B374CC171286074A00A5B34 /* TestModule-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestModule-framework-prefix.pch"; sourceTree = "<group>"; };
 		333300B73A8D358B0E4787A8790D4956 /* Pods-TestSDK_Dynamic_All-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSDK_Dynamic_All-acknowledgements.plist"; sourceTree = "<group>"; };
+		3342F21C32E66EEF3F2973F4451968B0 /* TestModule-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TestModule-framework.xcconfig"; sourceTree = "<group>"; };
 		33B30D15E5FCD72CD14989C6314851B4 /* HudTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HudTool.framework; path = "HudTool-framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37229D5FC36F059C21364C6AA071FC62 /* HudTool-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HudTool-library-prefix.pch"; path = "../HudTool-library/HudTool-library-prefix.pch"; sourceTree = "<group>"; };
-		3C1C2933D037D7C1F26A5BFAC506B515 /* TestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = TestModule/Classes/TestViewController.h; sourceTree = "<group>"; };
-		3E266225B9E59A12392AB6A66F3D2D5C /* TestModule-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TestModule-library-prefix.pch"; path = "../TestModule-library/TestModule-library-prefix.pch"; sourceTree = "<group>"; };
+		35D358914544D43FC902711A7D19EB10 /* TestModule-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "TestModule-library.xcconfig"; path = "../TestModule-library/TestModule-library.xcconfig"; sourceTree = "<group>"; };
+		3D5DF84A018E8F197FDAF5C1B9E3E661 /* HudTool-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HudTool-library.xcconfig"; path = "../HudTool-library/HudTool-library.xcconfig"; sourceTree = "<group>"; };
 		3FDCA5013D07969D01F57A0B8CDF55A1 /* MBProgressHUD-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-framework.xcconfig"; sourceTree = "<group>"; };
-		40CBAF1E2C045C367D15069F71C667A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		40E7873868B21B4E400337C1A83793D0 /* HudTool-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HudTool-framework-dummy.m"; sourceTree = "<group>"; };
 		432C6E87E913CEE1DA38B9345A68C9E1 /* Pods-TestSDK_Dynamic_RemoveAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Dynamic_RemoveAll.release.xcconfig"; sourceTree = "<group>"; };
-		45BA7704EFD2223E49FC24D089C63F83 /* TestModule-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TestModule-framework.xcconfig"; sourceTree = "<group>"; };
 		45C70A8AD7B62630F2B07CB48A7635E8 /* Pods-TestSDK_Dynamic_All-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestSDK_Dynamic_All-dummy.m"; sourceTree = "<group>"; };
+		465FF4D1D7A93DBE13B189ED66B2340A /* TestModule-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "TestModule-framework.modulemap"; sourceTree = "<group>"; };
 		4A442CCE1B0C71E600DE8B6D81EC3EC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4B0656C246C24BC2821F432B70D30C70 /* HudTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HudTool.h; path = HudTool/Classes/HudTool.h; sourceTree = "<group>"; };
 		4CB8B86EAE4BF2A414D5245D823B1087 /* Pods-TestSDK_Static-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSDK_Static-Info.plist"; sourceTree = "<group>"; };
-		50E16B046C17F4D0F7CCA233F73CCD74 /* HudTool-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HudTool-framework.xcconfig"; sourceTree = "<group>"; };
 		5237936F2FED0AF543DDDBEF7E0D65B5 /* Pods-TestSDK_Static.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestSDK_Static.modulemap"; sourceTree = "<group>"; };
-		52904A8EB68F8B530263F00F224AC67A /* TestModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52E06D9C2ED476F75810935D38B508FC /* Pods_TestSDK_Dynamic_RemoveAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestSDK_Dynamic_RemoveAll.framework; path = "Pods-TestSDK_Dynamic_RemoveAll.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		56DF04080CA69968FE0E6EF8649B353F /* HudTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HudTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		539C2F428CCA07CF767F7B58664396F3 /* TestModule-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestModule-framework-dummy.m"; sourceTree = "<group>"; };
+		58D05820387BBDCC8014B5812C7031A2 /* HudTool-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HudTool-framework-umbrella.h"; sourceTree = "<group>"; };
+		5B4B1C2D6877D1BA473A854116015C8A /* TestModule-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestModule-framework-prefix.pch"; sourceTree = "<group>"; };
 		5B7927A575812482E0AF00260F42B96A /* Pods-TestSDK_Dynamic_RemoveAll-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestSDK_Dynamic_RemoveAll-acknowledgements.markdown"; sourceTree = "<group>"; };
+		609FEB13595FB4B120B9C89BD9F4B283 /* TestModule-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestModule-framework-Info.plist"; sourceTree = "<group>"; };
+		62DB611A80E6CF9E74B3A9938A770885 /* HudTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HudTool.h; path = HudTool/Classes/HudTool.h; sourceTree = "<group>"; };
 		64B611F5D7AE7C0211DA4728CEA40205 /* Pods-TestSDK_Dynamic_All.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Dynamic_All.debug.xcconfig"; sourceTree = "<group>"; };
+		67ADD6F1D4CCAAFC3928F79CAEA9654A /* TestModule-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TestModule-library-dummy.m"; path = "../TestModule-library/TestModule-library-dummy.m"; sourceTree = "<group>"; };
 		6D0A674773F78E824AED6448C3E1330E /* libHudTool-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libHudTool-library.a"; path = "libHudTool-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7274EBB02676CEDC47317C924A6D9F10 /* Pods-TestSDK_Dynamic_RemoveAll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Dynamic_RemoveAll.debug.xcconfig"; sourceTree = "<group>"; };
-		79B6771E442F35913FAE84C325AA6F59 /* TestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = TestModule/Classes/TestViewController.m; sourceTree = "<group>"; };
 		7A270AFEF8DB4971E8997BF76C882040 /* Pods-TestSDK_Static.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Static.debug.xcconfig"; sourceTree = "<group>"; };
 		7E32AB1F25E1AA43E011F10594E57D45 /* MBProgressHUD-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD-library-prefix.pch"; path = "../MBProgressHUD-library/MBProgressHUD-library-prefix.pch"; sourceTree = "<group>"; };
 		7FD6D0572A7B1288991D7077F38D80F9 /* MBProgressHUD-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-framework-Info.plist"; sourceTree = "<group>"; };
 		83CD53016FA8C6A546B8AE92CAC7F740 /* MBProgressHUD-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-framework-dummy.m"; sourceTree = "<group>"; };
-		913335871EF1ECBA59ACB26889D28AE7 /* TestModule-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TestModule-library-dummy.m"; path = "../TestModule-library/TestModule-library-dummy.m"; sourceTree = "<group>"; };
+		857038AA39CB0D827AF646FF06F45723 /* HudTool-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HudTool-framework-Info.plist"; sourceTree = "<group>"; };
+		8D49BF703A442BB9BB086C8857EC1D95 /* TestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = TestModule/Classes/TestViewController.h; sourceTree = "<group>"; };
+		8F43D3AA80C188A7DF9F6F4714C34696 /* HudTool-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HudTool-framework-prefix.pch"; sourceTree = "<group>"; };
+		9923C8206820B3B23293F2A2600EBEDF /* HudTool-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "HudTool-framework.modulemap"; sourceTree = "<group>"; };
 		9985B2366127AFCD572798130902D2F6 /* Pods-TestSDK_Dynamic_RemoveMB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Dynamic_RemoveMB.release.xcconfig"; sourceTree = "<group>"; };
 		9B0722853CD93AA3D5B565E32039E5B8 /* Pods-TestSDK_Dynamic_RemoveMB-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestSDK_Dynamic_RemoveMB-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9C656B995F105BBA47722E67E508E712 /* TestModule-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestModule-framework-umbrella.h"; sourceTree = "<group>"; };
+		9BC4D97B5141EBC82788FE6C5B0449B3 /* HudTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HudTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DF5E845095317CC3627EEF3F2821AC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9E51BDC3B7D3F273FE76BAEC41B179CB /* Pods-TestSDK_Static-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestSDK_Static-dummy.m"; sourceTree = "<group>"; };
-		9ED0814EE4AF4300F64B80B4BBE36EB8 /* TestModule-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestModule-framework-Info.plist"; sourceTree = "<group>"; };
 		A0A0368F1C255AEEF67E0B1B91A7744F /* TestModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestModule.framework; path = "TestModule-framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0B2AB10BD71EB688A295A735861250E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A1CFB734D24F9DB15CD429DC1F515345 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A8825B85F1C8FA2D3B16E7C7A8480BFC /* HudTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HudTool.m; path = HudTool/Classes/HudTool.m; sourceTree = "<group>"; };
 		A91FE5AB29241B8EEE44AB63331F2EF3 /* Pods-TestSDK_Dynamic_RemoveMB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Dynamic_RemoveMB.debug.xcconfig"; sourceTree = "<group>"; };
 		B0ED420FA3C535A2CC9384EDB1D99892 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		B19661F879D67DA0E385252F07A1EBD3 /* TestModule-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "TestModule-framework.modulemap"; sourceTree = "<group>"; };
 		B2D5C46285F113792EE162F7CFFC6062 /* Pods-TestSDK_Static.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSDK_Static.release.xcconfig"; sourceTree = "<group>"; };
 		B5E0E7DB27AECD8376B8B4C290582B25 /* libTestModule-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libTestModule-library.a"; path = "libTestModule-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB7D7BB5B3D88D1D88E891BA29107D3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BAA4A77343734C2DF100F5EF753C4BBE /* HudTool-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HudTool-library-prefix.pch"; path = "../HudTool-library/HudTool-library-prefix.pch"; sourceTree = "<group>"; };
 		BF957FBF7C78D47CAA43A7C2687A5426 /* Pods-TestSDK_Dynamic_RemoveMB-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSDK_Dynamic_RemoveMB-acknowledgements.plist"; sourceTree = "<group>"; };
 		BFEE4EE047E037A76A81903D99C8E40C /* Pods-TestSDK_Dynamic_RemoveAll-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSDK_Dynamic_RemoveAll-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0E3EC2A663E560B5A2DBBB3A09CEFC0 /* MBProgressHUD-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-framework-umbrella.h"; sourceTree = "<group>"; };
 		C5D24EA35F36DF45619135ABEEC6E7B3 /* libPods-TestSDK_Dynamic_All.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestSDK_Dynamic_All.a"; path = "libPods-TestSDK_Dynamic_All.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C780151FA90983907105918BCA1068A7 /* MBProgressHUD-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-framework-prefix.pch"; sourceTree = "<group>"; };
-		CA71D44313A69F9CA830215E71C2A60D /* HudTool-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HudTool-library.xcconfig"; path = "../HudTool-library/HudTool-library.xcconfig"; sourceTree = "<group>"; };
+		CF7E417E32A226AD820EDD52AC7E3AFF /* HudTool-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HudTool-framework-dummy.m"; sourceTree = "<group>"; };
 		CF9FEF6BF61474395C2778AD860513E0 /* libPods-TestSDK_Dynamic_RemoveMB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestSDK_Dynamic_RemoveMB.a"; path = "libPods-TestSDK_Dynamic_RemoveMB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D02873A7FC1F98E8D601DF6C49249610 /* HudTool-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "HudTool-framework.modulemap"; sourceTree = "<group>"; };
-		D471D3D11F5903902D0A17E53C4C014C /* HudTool-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HudTool-framework-Info.plist"; sourceTree = "<group>"; };
 		D8F50EA63D377CF2EE93D6F0ED13BDB9 /* Pods_TestSDK_Static.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestSDK_Static.framework; path = "Pods-TestSDK_Static.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6A82DC856516FB67B15DB3FD54655D /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = "MBProgressHUD-framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E388FD5C46BAFB7CB26A3B74284C9FED /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -234,11 +228,13 @@
 		E478362412E93C6B64023933518F49AC /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E49965774EBA7D29FE32FB3D6489B8AE /* MBProgressHUD-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MBProgressHUD-library.xcconfig"; path = "../MBProgressHUD-library/MBProgressHUD-library.xcconfig"; sourceTree = "<group>"; };
 		E66C597B58EAC22B6AEC73D548B44591 /* Pods-TestSDK_Static-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestSDK_Static-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6F8EA3190E9D70BB3D1262BD718A4E6 /* HudTool-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HudTool-library-dummy.m"; path = "../HudTool-library/HudTool-library-dummy.m"; sourceTree = "<group>"; };
 		E855E1EB58A4646F79443101C728AA6F /* Pods-TestSDK_Static-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSDK_Static-acknowledgements.plist"; sourceTree = "<group>"; };
-		EEF6A369BC934B4DBCCB4E18D49A9675 /* HudTool-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HudTool-library-dummy.m"; path = "../HudTool-library/HudTool-library-dummy.m"; sourceTree = "<group>"; };
+		EC2F05894179720D0B54F98F990905EB /* HudTool-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HudTool-framework.xcconfig"; sourceTree = "<group>"; };
+		EFF7198114B3ED4E83AF6BE0FBB28EFC /* TestModule-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestModule-framework-umbrella.h"; sourceTree = "<group>"; };
 		F1F067E182F2A45A25651ACE4401C6FF /* libMBProgressHUD-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libMBProgressHUD-library.a"; path = "libMBProgressHUD-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DFC6AE37155123A0269119EA5C27B7 /* TestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = TestModule/Classes/TestViewController.m; sourceTree = "<group>"; };
 		F8407A5C5AB63ECF7B8E6361D961145E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		FAABB616C027B2FE59D9CC966557C278 /* TestModule-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestModule-framework-dummy.m"; sourceTree = "<group>"; };
 		FAFBDD42195659CC307A1D3A7CC1D445 /* Pods-TestSDK_Dynamic_RemoveAll-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSDK_Dynamic_RemoveAll-Info.plist"; sourceTree = "<group>"; };
 		FCD07935DC129F6645327F306E42FB38 /* HudTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HudTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDF6BF3C8666BE94EBED9BD54974E63 /* Pods-TestSDK_Dynamic_RemoveAll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestSDK_Dynamic_RemoveAll.modulemap"; sourceTree = "<group>"; };
@@ -344,14 +340,16 @@
 			path = "../Target Support Files/MBProgressHUD-framework";
 			sourceTree = "<group>";
 		};
-		24836EF4935DE38D57B0C51D5724F691 /* Pod */ = {
+		2535A00E3F65BD45FD12E12CDDF4D4E4 /* TestModule */ = {
 			isa = PBXGroup;
 			children = (
-				56DF04080CA69968FE0E6EF8649B353F /* HudTool.podspec */,
-				A0B2AB10BD71EB688A295A735861250E /* LICENSE */,
-				9DF5E845095317CC3627EEF3F2821AC4 /* README.md */,
+				8D49BF703A442BB9BB086C8857EC1D95 /* TestViewController.h */,
+				F7DFC6AE37155123A0269119EA5C27B7 /* TestViewController.m */,
+				5C6ADB1D7826508A9EA6035F5835A26D /* Pod */,
+				9049A70A1E48FD37BCF4381F7535FE5B /* Support Files */,
 			);
-			name = Pod;
+			name = TestModule;
+			path = ../../TestModule;
 			sourceTree = "<group>";
 		};
 		34FF810FB8506D78AD76313469970F4C /* Products */ = {
@@ -377,40 +375,6 @@
 				B5958D61627DBB623DF564E67594C886 /* MBProgressHUD */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		4E6889754D968194896114F2A36811C7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D02873A7FC1F98E8D601DF6C49249610 /* HudTool-framework.modulemap */,
-				50E16B046C17F4D0F7CCA233F73CCD74 /* HudTool-framework.xcconfig */,
-				40E7873868B21B4E400337C1A83793D0 /* HudTool-framework-dummy.m */,
-				D471D3D11F5903902D0A17E53C4C014C /* HudTool-framework-Info.plist */,
-				1F27D798006B74C4B1D64879C3A677C6 /* HudTool-framework-prefix.pch */,
-				0F2666C8DFC7DE069A84A8E6C4DEBD09 /* HudTool-framework-umbrella.h */,
-				CA71D44313A69F9CA830215E71C2A60D /* HudTool-library.xcconfig */,
-				EEF6A369BC934B4DBCCB4E18D49A9675 /* HudTool-library-dummy.m */,
-				37229D5FC36F059C21364C6AA071FC62 /* HudTool-library-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../TestSDK/Pods/Target Support Files/HudTool-framework";
-			sourceTree = "<group>";
-		};
-		541F0CF4FD41C67667B912C043FE2D1F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B19661F879D67DA0E385252F07A1EBD3 /* TestModule-framework.modulemap */,
-				45BA7704EFD2223E49FC24D089C63F83 /* TestModule-framework.xcconfig */,
-				FAABB616C027B2FE59D9CC966557C278 /* TestModule-framework-dummy.m */,
-				9ED0814EE4AF4300F64B80B4BBE36EB8 /* TestModule-framework-Info.plist */,
-				32DF73421B374CC171286074A00A5B34 /* TestModule-framework-prefix.pch */,
-				9C656B995F105BBA47722E67E508E712 /* TestModule-framework-umbrella.h */,
-				14F7FD40ABF789904C38C7126C5090BC /* TestModule-library.xcconfig */,
-				913335871EF1ECBA59ACB26889D28AE7 /* TestModule-library-dummy.m */,
-				3E266225B9E59A12392AB6A66F3D2D5C /* TestModule-library-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../TestSDK/Pods/Target Support Files/TestModule-framework";
 			sourceTree = "<group>";
 		};
 		55405CBC5515431A78E2E13D5E5F0D72 /* Pods-TestSDK_Dynamic_RemoveAll */ = {
@@ -442,16 +406,12 @@
 			path = "Target Support Files/Pods-TestSDK_Dynamic_RemoveMB";
 			sourceTree = "<group>";
 		};
-		574A061F6D3882295532751AC73C642B /* HudTool */ = {
+		5C6ADB1D7826508A9EA6035F5835A26D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4B0656C246C24BC2821F432B70D30C70 /* HudTool.h */,
-				A8825B85F1C8FA2D3B16E7C7A8480BFC /* HudTool.m */,
-				24836EF4935DE38D57B0C51D5724F691 /* Pod */,
-				4E6889754D968194896114F2A36811C7 /* Support Files */,
+				0DF02413CD2FD6BA0003765C9BAA85D1 /* TestModule.podspec */,
 			);
-			name = HudTool;
-			path = ../../HudTool;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6D69D6C096F3DCEB84798EC89D9EEB53 /* Frameworks */ = {
@@ -488,6 +448,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		9049A70A1E48FD37BCF4381F7535FE5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				465FF4D1D7A93DBE13B189ED66B2340A /* TestModule-framework.modulemap */,
+				3342F21C32E66EEF3F2973F4451968B0 /* TestModule-framework.xcconfig */,
+				539C2F428CCA07CF767F7B58664396F3 /* TestModule-framework-dummy.m */,
+				609FEB13595FB4B120B9C89BD9F4B283 /* TestModule-framework-Info.plist */,
+				5B4B1C2D6877D1BA473A854116015C8A /* TestModule-framework-prefix.pch */,
+				EFF7198114B3ED4E83AF6BE0FBB28EFC /* TestModule-framework-umbrella.h */,
+				35D358914544D43FC902711A7D19EB10 /* TestModule-library.xcconfig */,
+				67ADD6F1D4CCAAFC3928F79CAEA9654A /* TestModule-library-dummy.m */,
+				1A8EB105C423D3E73ED233BA6A275597 /* TestModule-library-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../TestSDK/Pods/Target Support Files/TestModule-framework";
+			sourceTree = "<group>";
+		};
 		90D68193941AB938F0E164837D936A79 /* Pods-TestSDK_Static */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,11 +481,36 @@
 			path = "Target Support Files/Pods-TestSDK_Static";
 			sourceTree = "<group>";
 		};
+		91F4E5B019157ABA98DC01F5CBB3F846 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4D97B5141EBC82788FE6C5B0449B3 /* HudTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AE8F5140BBB7DF26A22C710DB260F958 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9923C8206820B3B23293F2A2600EBEDF /* HudTool-framework.modulemap */,
+				EC2F05894179720D0B54F98F990905EB /* HudTool-framework.xcconfig */,
+				CF7E417E32A226AD820EDD52AC7E3AFF /* HudTool-framework-dummy.m */,
+				857038AA39CB0D827AF646FF06F45723 /* HudTool-framework-Info.plist */,
+				8F43D3AA80C188A7DF9F6F4714C34696 /* HudTool-framework-prefix.pch */,
+				58D05820387BBDCC8014B5812C7031A2 /* HudTool-framework-umbrella.h */,
+				3D5DF84A018E8F197FDAF5C1B9E3E661 /* HudTool-library.xcconfig */,
+				E6F8EA3190E9D70BB3D1262BD718A4E6 /* HudTool-library-dummy.m */,
+				BAA4A77343734C2DF100F5EF753C4BBE /* HudTool-library-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../TestSDK/Pods/Target Support Files/HudTool-framework";
+			sourceTree = "<group>";
+		};
 		B0B18DB3207930CDFD509687FFFBCA23 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				574A061F6D3882295532751AC73C642B /* HudTool */,
-				B956BDF55FC51969307B72C43E0D6FD3 /* TestModule */,
+				D640F1D6ABABE7E1A94C1AD403F70153 /* HudTool */,
+				2535A00E3F65BD45FD12E12CDDF4D4E4 /* TestModule */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -524,18 +526,6 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		B956BDF55FC51969307B72C43E0D6FD3 /* TestModule */ = {
-			isa = PBXGroup;
-			children = (
-				3C1C2933D037D7C1F26A5BFAC506B515 /* TestViewController.h */,
-				79B6771E442F35913FAE84C325AA6F59 /* TestViewController.m */,
-				E995BD4B183A4DD1DE889C4219B41B6E /* Pod */,
-				541F0CF4FD41C67667B912C043FE2D1F /* Support Files */,
-			);
-			name = TestModule;
-			path = ../../TestModule;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -548,14 +538,16 @@
 			);
 			sourceTree = "<group>";
 		};
-		E995BD4B183A4DD1DE889C4219B41B6E /* Pod */ = {
+		D640F1D6ABABE7E1A94C1AD403F70153 /* HudTool */ = {
 			isa = PBXGroup;
 			children = (
-				40CBAF1E2C045C367D15069F71C667A9 /* LICENSE */,
-				BB7D7BB5B3D88D1D88E891BA29107D3D /* README.md */,
-				52904A8EB68F8B530263F00F224AC67A /* TestModule.podspec */,
+				62DB611A80E6CF9E74B3A9938A770885 /* HudTool.h */,
+				1B1CF72ED2128BC31438E04D1AA98551 /* HudTool.m */,
+				91F4E5B019157ABA98DC01F5CBB3F846 /* Pod */,
+				AE8F5140BBB7DF26A22C710DB260F958 /* Support Files */,
 			);
-			name = Pod;
+			name = HudTool;
+			path = ../../HudTool;
 			sourceTree = "<group>";
 		};
 		F8E273C9B45F4CEF56E42C9FB39697E1 /* iOS */ = {
@@ -1133,7 +1125,7 @@
 		};
 		2CDF81B655BD79D1C685AAC8B0C1BCD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA71D44313A69F9CA830215E71C2A60D /* HudTool-library.xcconfig */;
+			baseConfigurationReference = 3D5DF84A018E8F197FDAF5C1B9E3E661 /* HudTool-library.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1216,7 +1208,7 @@
 		};
 		3CCB46A39991113BEF5E3383732AFAC3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50E16B046C17F4D0F7CCA233F73CCD74 /* HudTool-framework.xcconfig */;
+			baseConfigurationReference = EC2F05894179720D0B54F98F990905EB /* HudTool-framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1354,7 +1346,7 @@
 		};
 		8D9F2AE117E661603A9A656D2E0D24F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14F7FD40ABF789904C38C7126C5090BC /* TestModule-library.xcconfig */;
+			baseConfigurationReference = 35D358914544D43FC902711A7D19EB10 /* TestModule-library.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1378,7 +1370,7 @@
 		};
 		8ECC131131D3CE9745FA3ADDEAA1D7DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45BA7704EFD2223E49FC24D089C63F83 /* TestModule-framework.xcconfig */;
+			baseConfigurationReference = 3342F21C32E66EEF3F2973F4451968B0 /* TestModule-framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1537,7 +1529,7 @@
 		};
 		9C610295B3F54BC70C64DA5EA83BD3B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14F7FD40ABF789904C38C7126C5090BC /* TestModule-library.xcconfig */;
+			baseConfigurationReference = 35D358914544D43FC902711A7D19EB10 /* TestModule-library.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1560,7 +1552,7 @@
 		};
 		ABF7A0D917615DA7C3DDA3EA05942ABB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50E16B046C17F4D0F7CCA233F73CCD74 /* HudTool-framework.xcconfig */;
+			baseConfigurationReference = EC2F05894179720D0B54F98F990905EB /* HudTool-framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1594,7 +1586,7 @@
 		};
 		AD9BE329597EF1C232D38F4921D9316F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45BA7704EFD2223E49FC24D089C63F83 /* TestModule-framework.xcconfig */;
+			baseConfigurationReference = 3342F21C32E66EEF3F2973F4451968B0 /* TestModule-framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1795,7 +1787,7 @@
 		};
 		F642F39206F7F6FE40852479ACE1FAAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA71D44313A69F9CA830215E71C2A60D /* HudTool-library.xcconfig */;
+			baseConfigurationReference = 3D5DF84A018E8F197FDAF5C1B9E3E661 /* HudTool-library.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

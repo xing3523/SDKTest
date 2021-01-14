@@ -9,8 +9,14 @@
 /* Begin PBXBuildFile section */
 		12D1E1A8F6111D086CE1FE49 /* Pods_TestSDK_Dynamic_RemoveAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D5319F4794B64ECCD679D4 /* Pods_TestSDK_Dynamic_RemoveAll.framework */; };
 		211AC617252043A900B473B6 /* TestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 211AC615252043A900B473B6 /* TestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2149E94C25B088C3005FF8E4 /* libHudTool-library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2149E94825B08222005FF8E4 /* libHudTool-library.a */; };
+		2149E94D25B088C6005FF8E4 /* libTestModule-library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2149E94A25B0824A005FF8E4 /* libTestModule-library.a */; };
 		21571A262524200900A2A597 /* TestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 211AC615252043A900B473B6 /* TestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21571A352524201E00A2A597 /* TestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 211AC615252043A900B473B6 /* TestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		216A4CFC25B167AC003FE259 /* HudTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217746D425B0699F007EA4D1 /* HudTool.framework */; };
+		216A4CFD25B167AC003FE259 /* HudTool.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 217746D425B0699F007EA4D1 /* HudTool.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		216A4CFF25B167AE003FE259 /* TestModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217746D325B0699F007EA4D1 /* TestModule.framework */; };
+		216A4D0025B167AE003FE259 /* TestModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 217746D325B0699F007EA4D1 /* TestModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		21BCDEB625283BF600554DF4 /* TestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BCDEB425283BF600554DF4 /* TestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21BCDEB725283BF600554DF4 /* TestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BCDEB425283BF600554DF4 /* TestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21BCDEB825283BF600554DF4 /* TestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BCDEB425283BF600554DF4 /* TestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,31 +26,59 @@
 		21BCDEBC25283BF600554DF4 /* TestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BCDEB525283BF600554DF4 /* TestManager.m */; };
 		21BCDEBD25283BF600554DF4 /* TestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BCDEB525283BF600554DF4 /* TestManager.m */; };
 		21C8D0C625242CE50063115A /* TestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 211AC615252043A900B473B6 /* TestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29E9B9E1D8544D7FA06BE5C4 /* libPods-TestSDK_Dynamic_RemoveMB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D006D7BAA78C005672858AC2 /* libPods-TestSDK_Dynamic_RemoveMB.a */; };
-		9568F2AF26961684B6BA7A72 /* Pods_TestSDK_Static.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD072D939893FDA51E25A27B /* Pods_TestSDK_Static.framework */; };
+		7C4B6927A1170777DC39881A /* Pods_TestSDK_Static.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD382BDD3919AB9E2F8454E /* Pods_TestSDK_Static.framework */; };
 		B7147640EE1D07BFCB65C894 /* libPods-TestSDK_Dynamic_All.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047A3EBA88486649DCE13D86 /* libPods-TestSDK_Dynamic_All.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2149E94325B08152005FF8E4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216A4CFE25B167AC003FE259 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				216A4D0025B167AE003FE259 /* TestModule.framework in Embed Frameworks */,
+				216A4CFD25B167AC003FE259 /* HudTool.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		047A3EBA88486649DCE13D86 /* libPods-TestSDK_Dynamic_All.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSDK_Dynamic_All.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		211AC612252043A900B473B6 /* TestSDK_Dynamic_All.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSDK_Dynamic_All.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		211AC615252043A900B473B6 /* TestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSDK.h; sourceTree = "<group>"; };
 		211AC616252043A900B473B6 /* TestSDK_Staticl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSDK_Staticl-Info.plist"; sourceTree = "<group>"; };
+		2149E94825B08222005FF8E4 /* libHudTool-library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libHudTool-library.a"; sourceTree = "<group>"; };
+		2149E94A25B0824A005FF8E4 /* libTestModule-library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libTestModule-library.a"; sourceTree = "<group>"; };
 		21571A302524200900A2A597 /* TestSDK_Dynamic_RemoveMB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSDK_Dynamic_RemoveMB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21571A312524200900A2A597 /* TestSDK_Dynamic_All-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestSDK_Dynamic_All-Info.plist"; path = "/Users/xing/Desktop/SDKTest/TestSDK/TestSDK_Dynamic_All-Info.plist"; sourceTree = "<absolute>"; };
+		21571A312524200900A2A597 /* TestSDK_Dynamic_All-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSDK_Dynamic_All-Info.plist"; sourceTree = "<group>"; };
 		21571A3F2524201E00A2A597 /* TestSDK_Static.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSDK_Static.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21571A402524201E00A2A597 /* TestSDK_Dynamic_RemoveMB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestSDK_Dynamic_RemoveMB-Info.plist"; path = "/Users/xing/Desktop/SDKTest/TestSDK/TestSDK_Dynamic_RemoveMB-Info.plist"; sourceTree = "<absolute>"; };
+		21571A402524201E00A2A597 /* TestSDK_Dynamic_RemoveMB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestSDK_Dynamic_RemoveMB-Info.plist"; path = "/Users/xing/Desktop/XingGit/Github/sdktest/TestSDK/TestSDK_Dynamic_RemoveMB-Info.plist"; sourceTree = "<absolute>"; };
+		217746D325B0699F007EA4D1 /* TestModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestModule.framework; sourceTree = "<group>"; };
+		217746D425B0699F007EA4D1 /* HudTool.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HudTool.framework; sourceTree = "<group>"; };
 		21BCDEB425283BF600554DF4 /* TestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestManager.h; sourceTree = "<group>"; };
 		21BCDEB525283BF600554DF4 /* TestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestManager.m; sourceTree = "<group>"; };
 		21C8D0D025242CE50063115A /* TestSDK_Dynamic_RemoveAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSDK_Dynamic_RemoveAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21C8D0D125242CE50063115A /* TestSDK_Dynamic_RemoveAll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestSDK_Dynamic_RemoveAll-Info.plist"; path = "/Users/xing/Desktop/SDKTest/TestSDK/TestSDK_Dynamic_RemoveAll-Info.plist"; sourceTree = "<absolute>"; };
+		21C8D0D125242CE50063115A /* TestSDK_Dynamic_RemoveAll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestSDK_Dynamic_RemoveAll-Info.plist"; path = "/Users/xing/Desktop/XingGit/Github/sdktest/TestSDK/TestSDK_Dynamic_RemoveAll-Info.plist"; sourceTree = "<absolute>"; };
 		32E321AA66847B6B5C635813 /* Pods-TestSDK_Dynamic_RemoveAll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK_Dynamic_RemoveAll.debug.xcconfig"; path = "Target Support Files/Pods-TestSDK_Dynamic_RemoveAll/Pods-TestSDK_Dynamic_RemoveAll.debug.xcconfig"; sourceTree = "<group>"; };
 		38D5319F4794B64ECCD679D4 /* Pods_TestSDK_Dynamic_RemoveAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDK_Dynamic_RemoveAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		653926C14F9E7938AFC7AC0A /* Pods-TestSDK_Static.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK_Static.debug.xcconfig"; path = "Target Support Files/Pods-TestSDK_Static/Pods-TestSDK_Static.debug.xcconfig"; sourceTree = "<group>"; };
 		7D6166AD76B9B4A91B51B22C /* Pods-TestSDK_Dynamic_RemoveMB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK_Dynamic_RemoveMB.release.xcconfig"; path = "Target Support Files/Pods-TestSDK_Dynamic_RemoveMB/Pods-TestSDK_Dynamic_RemoveMB.release.xcconfig"; sourceTree = "<group>"; };
 		8D9194563FB5D4027DB414F6 /* Pods-TestSDK_Dynamic_RemoveAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK_Dynamic_RemoveAll.release.xcconfig"; path = "Target Support Files/Pods-TestSDK_Dynamic_RemoveAll/Pods-TestSDK_Dynamic_RemoveAll.release.xcconfig"; sourceTree = "<group>"; };
+		9FD382BDD3919AB9E2F8454E /* Pods_TestSDK_Static.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDK_Static.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A235D98273DFD6D5CD9EDCC9 /* Pods-TestSDK_Dynamic_All.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK_Dynamic_All.debug.xcconfig"; path = "Target Support Files/Pods-TestSDK_Dynamic_All/Pods-TestSDK_Dynamic_All.debug.xcconfig"; sourceTree = "<group>"; };
-		AD072D939893FDA51E25A27B /* Pods_TestSDK_Static.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDK_Static.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D006D7BAA78C005672858AC2 /* libPods-TestSDK_Dynamic_RemoveMB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSDK_Dynamic_RemoveMB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D607D2C660C6CEC49CFBCA9F /* Pods-TestSDK_Dynamic_All.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK_Dynamic_All.release.xcconfig"; path = "Target Support Files/Pods-TestSDK_Dynamic_All/Pods-TestSDK_Dynamic_All.release.xcconfig"; sourceTree = "<group>"; };
 		D74976B6DBD34415D05F9176 /* Pods-TestSDK_Dynamic_RemoveMB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK_Dynamic_RemoveMB.debug.xcconfig"; path = "Target Support Files/Pods-TestSDK_Dynamic_RemoveMB/Pods-TestSDK_Dynamic_RemoveMB.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E9B9E1D8544D7FA06BE5C4 /* libPods-TestSDK_Dynamic_RemoveMB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9568F2AF26961684B6BA7A72 /* Pods_TestSDK_Static.framework in Frameworks */,
+				2149E94D25B088C6005FF8E4 /* libTestModule-library.a in Frameworks */,
+				7C4B6927A1170777DC39881A /* Pods_TestSDK_Static.framework in Frameworks */,
+				2149E94C25B088C3005FF8E4 /* libHudTool-library.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216A4CFF25B167AE003FE259 /* TestModule.framework in Frameworks */,
+				216A4CFC25B167AC003FE259 /* HudTool.framework in Frameworks */,
 				12D1E1A8F6111D086CE1FE49 /* Pods_TestSDK_Dynamic_RemoveAll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,8 +155,20 @@
 				211AC615252043A900B473B6 /* TestSDK.h */,
 				21BCDEB425283BF600554DF4 /* TestManager.h */,
 				21BCDEB525283BF600554DF4 /* TestManager.m */,
+				217746D125B063CF007EA4D1 /* PrivateFrameworks */,
 			);
 			path = TestSDK;
+			sourceTree = "<group>";
+		};
+		217746D125B063CF007EA4D1 /* PrivateFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2149E94A25B0824A005FF8E4 /* libTestModule-library.a */,
+				2149E94825B08222005FF8E4 /* libHudTool-library.a */,
+				217746D425B0699F007EA4D1 /* HudTool.framework */,
+				217746D325B0699F007EA4D1 /* TestModule.framework */,
+			);
+			path = PrivateFrameworks;
 			sourceTree = "<group>";
 		};
 		630AA98B505F28ECB5BEF491 /* Pods */ = {
@@ -143,7 +192,7 @@
 				D006D7BAA78C005672858AC2 /* libPods-TestSDK_Dynamic_RemoveMB.a */,
 				047A3EBA88486649DCE13D86 /* libPods-TestSDK_Dynamic_All.a */,
 				38D5319F4794B64ECCD679D4 /* Pods_TestSDK_Dynamic_RemoveAll.framework */,
-				AD072D939893FDA51E25A27B /* Pods_TestSDK_Static.framework */,
+				9FD382BDD3919AB9E2F8454E /* Pods_TestSDK_Static.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -237,6 +286,7 @@
 				21571A372524201E00A2A597 /* Sources */,
 				21571A392524201E00A2A597 /* Frameworks */,
 				21571A3B2524201E00A2A597 /* Resources */,
+				2149E94325B08152005FF8E4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +306,8 @@
 				21C8D0C825242CE50063115A /* Sources */,
 				21C8D0CA25242CE50063115A /* Frameworks */,
 				21C8D0CC25242CE50063115A /* Resources */,
+				217746D225B06412007EA4D1 /* CopyFrameworksScript */,
+				216A4CFE25B167AC003FE259 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -333,6 +385,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		217746D225B06412007EA4D1 /* CopyFrameworksScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = CopyFrameworksScript;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "exit 0\ncopyFrameworks=('HudTool' 'TestModule')\nfor element in ${copyFrameworks[*]}\ndo\ncopyPath=\"$PODS_CONFIGURATION_BUILD_DIR/${element}-framework/${element}.framework\"\ngoalPath=\"${SRCROOT}/${PROJECT_NAME}/PrivateFrameworks/\"\ncp -rf $copyPath $goalPath\ndone\n";
+		};
 		21C8D0C425242CE50063115A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -631,11 +701,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D74976B6DBD34415D05F9176 /* Pods-TestSDK_Dynamic_RemoveMB.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_MODULES_AUTOLINK = YES;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
 				INFOPLIST_FILE = "TestSDK_Dynamic_RemoveMB-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -650,9 +724,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -660,11 +737,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D6166AD76B9B4A91B51B22C /* Pods-TestSDK_Dynamic_RemoveMB.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_MODULES_AUTOLINK = YES;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
 				INFOPLIST_FILE = "TestSDK_Dynamic_RemoveMB-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -679,9 +760,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
@@ -694,6 +778,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestSDK/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = "TestSDK_Staticl-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -701,6 +789,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestSDK/PrivateFrameworks",
 				);
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDK;
@@ -720,6 +812,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestSDK/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = "TestSDK_Staticl-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -727,6 +823,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestSDK/PrivateFrameworks",
 				);
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDK;
@@ -741,11 +841,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32E321AA66847B6B5C635813 /* Pods-TestSDK_Dynamic_RemoveAll.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SQYCE596J2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestSDK/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = "TestSDK_Dynamic_RemoveAll-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -756,9 +862,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -766,11 +874,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D9194563FB5D4027DB414F6 /* Pods-TestSDK_Dynamic_RemoveAll.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SQYCE596J2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestSDK/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = "TestSDK_Dynamic_RemoveAll-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -781,9 +895,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xing.TestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};

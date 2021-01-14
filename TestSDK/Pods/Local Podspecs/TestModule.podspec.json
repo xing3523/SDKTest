@@ -3,16 +3,12 @@
   "version": "0.1.0",
   "summary": "A short description of TestModule.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xingCome/TestModule",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "homepage": "https://github.com/xing3523/TestModule",
   "authors": {
-    "xingCome": "xinxof@foxmail.com"
+    "xing": "xinxof@foxmail.com"
   },
   "source": {
-    "git": "https://github.com/xingCome/TestModule.git",
+    "git": "https://github.com/xing3523/TestModule.git",
     "tag": "0.1.0"
   },
   "platforms": {

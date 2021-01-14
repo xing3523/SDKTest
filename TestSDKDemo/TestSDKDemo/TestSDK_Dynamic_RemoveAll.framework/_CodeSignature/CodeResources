@@ -4,6 +4,30 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/HudTool.framework/HudTool</key>
+		<data>
+		TP7p5BAREqbqsdr/KpJtwOkzQ6w=
+		</data>
+		<key>Frameworks/HudTool.framework/Info.plist</key>
+		<data>
+		M7w3kIjNvlMOPtJT3jj4GoxWnFg=
+		</data>
+		<key>Frameworks/HudTool.framework/_CodeSignature/CodeResources</key>
+		<data>
+		7EkiUSOCgt7ehVwcrZQjj6RCB0s=
+		</data>
+		<key>Frameworks/TestModule.framework/Info.plist</key>
+		<data>
+		XyPbVqeur546jtW8P4iSAcR2laQ=
+		</data>
+		<key>Frameworks/TestModule.framework/TestModule</key>
+		<data>
+		BT1k19RB3GX5Kjf9oRb951NpA9U=
+		</data>
+		<key>Frameworks/TestModule.framework/_CodeSignature/CodeResources</key>
+		<data>
+		PF3lWxWRHD34LRAigkDOknBfQwI=
+		</data>
 		<key>Headers/TestManager.h</key>
 		<data>
 		yRdzAQoXDH+MsUVcfV8Mws5fWpw=
@@ -14,11 +38,77 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1grL/V97gTNDqTKWT/szlYbc9MI=
+		TmW3L7Voq4SIwR6SBTvuVIQjzDk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/HudTool.framework/HudTool</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TP7p5BAREqbqsdr/KpJtwOkzQ6w=
+			</data>
+			<key>hash2</key>
+			<data>
+			HuNaR03OjeDdgzizzCGfmdbDaxcwI4gxe6/QAH/Jiqc=
+			</data>
+		</dict>
+		<key>Frameworks/HudTool.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M7w3kIjNvlMOPtJT3jj4GoxWnFg=
+			</data>
+			<key>hash2</key>
+			<data>
+			j6tAUMfQMPBVTw3mIxNPcZzrWCgIEIGU7VZoBftmdcs=
+			</data>
+		</dict>
+		<key>Frameworks/HudTool.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7EkiUSOCgt7ehVwcrZQjj6RCB0s=
+			</data>
+			<key>hash2</key>
+			<data>
+			BbnOU2AgSzF9RFOlXzhyxQkkpuhlOkFt97wwshXNPrI=
+			</data>
+		</dict>
+		<key>Frameworks/TestModule.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XyPbVqeur546jtW8P4iSAcR2laQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			iYSyS3UOL4uyQuRdN9P7x46DVjpTzF1k7B1bch4ayKU=
+			</data>
+		</dict>
+		<key>Frameworks/TestModule.framework/TestModule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BT1k19RB3GX5Kjf9oRb951NpA9U=
+			</data>
+			<key>hash2</key>
+			<data>
+			xLjGYkaWMeCqz37JYG2Dwh9MTJCyR9pQpm85HZdioGE=
+			</data>
+		</dict>
+		<key>Frameworks/TestModule.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PF3lWxWRHD34LRAigkDOknBfQwI=
+			</data>
+			<key>hash2</key>
+			<data>
+			hlNfFSp5r2YuxWU4gVt84KRcZGJXYtYED4KYBXloZAw=
+			</data>
+		</dict>
 		<key>Headers/TestManager.h</key>
 		<dict>
 			<key>hash</key>
